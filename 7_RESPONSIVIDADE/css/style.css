@@ -1,0 +1,42 @@
+/* media query*/
+h1{
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+    h1{
+        color: aqua;
+    }
+}
+
+/*3 min width*/
+p{
+    background-color: red;
+    color: #000;
+}
+@media screen and (min-width: 800px){
+    p{
+        background-color: #789;
+        color: red;
+    }
+}
+
+/*
+600px e abaixo: celular
+
+768px ate 600px: tablets
+
+992px ate 768px: mini laptops
+
+992px e acima: laptops e desktop
+*/
+
+h3{
+    display: none;
+}
+@media screen and (orientation: landscape){
+    h3{
+        display:block ;
+    }
+}
+
